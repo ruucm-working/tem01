@@ -25,17 +25,10 @@ export function Player(props) {
   return (
     <Stack
       width={props.width}
-      height={props.state.height}
       background="pink"
       gap={0}
       borderRadius={props.borderRadius}
-      bottom={props.state.bottom}
       {...props}
-      // onTap={() => {
-      //   console.log("clicked");
-      //   props.height = 842;
-      //   props.bottom = 0;
-      // }}
     >
       {/* album cover */}
       <Frame width="100%" height={props.width} background="" overflow="hidden">
