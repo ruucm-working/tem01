@@ -13,6 +13,7 @@ import { MainSection } from "../components/MainSection";
 import { SongSection } from "../components/SongSection";
 import { Player } from "../Player/Player";
 import { Nav } from "../components/Nav";
+import { useState } from "react";
 
 const appState = Data({
   isPlayerTapped: false,
@@ -23,6 +24,7 @@ const appState = Data({
 });
 
 export function Comp1({ prop1, ...rest }) {
+  const [activeLayer, setActiveLayer] = useState("");
   return (
     <Frame width={414} height={896} background="">
       <StatusBar appearance={"dark"} />
@@ -48,10 +50,12 @@ export function Comp1({ prop1, ...rest }) {
       </Stack>
       <Player
         state={appState.playerState}
+        activeLayer={activeLayer}
         onTap={() => {
           console.log("clicked");
           appState.playerState.height = 842;
           appState.playerState.bottom = 0;
+          setActiveLayer("player");
         }}
       />
       <Nav bottom={0} />
