@@ -20,6 +20,15 @@ import {
 } from "../assets/Icons";
 import { PlayerMini } from "../components/PlayerMini";
 
+const player = {
+  expanded: {
+    height: 842,
+  },
+  minimized: {
+    height: 64,
+    bottom: 92
+  },
+};
 export function Player(props) {
   console.log(props.state);
   return (
@@ -28,10 +37,8 @@ export function Player(props) {
       background="pink"
       gap={0}
       borderRadius={props.borderRadius}
-      animate={{
-        height: props.activeLayer === 'player' ? 842 : 64,
-        bottom: props.activeLayer === 'player' ? 0 : 92,
-      }}
+      variants={player}
+      animate={props.activeLayer === 'player' ? 'expanded' : 'minized'}
       {...props}
     >
       {/* album cover */}
