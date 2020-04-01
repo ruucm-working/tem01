@@ -28,6 +28,10 @@ export function Player(props) {
       background="pink"
       gap={0}
       borderRadius={props.borderRadius}
+      animate={{
+        height: props.activeLayer === 'player' ? 842 : 64,
+        bottom: props.activeLayer === 'player' ? 0 : 92,
+      }}
       {...props}
     >
       {/* album cover */}
