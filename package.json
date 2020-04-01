@@ -1,0 +1,20 @@
+{
+  "main": "dist/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^16.8"
+  },
+  "peerDependencies": {
+    "framer": "^1.0",
+    "react": "^16.8"
+  },
+  "framer": {
+    "id": "92ac570e-4ffa-430f-aa94-f1182e975a52"
+  },
+  "author": ". ruucm",
+  "dependencies": {
+    "@framer/kasimir.iphone-x-kit": "^1.21.0",
+    "framer-motion": "^1.6.12",
+    "styled-components": "^4.4.0"
+  }
+}

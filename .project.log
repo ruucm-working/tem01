@@ -1,0 +1,39 @@
+[2020-04-01 19:23:31.1270] - INFO - Reading from /Users/hyewon/Documents/2. framer x lec/intermediate/4-1/hf-intermediate-amds-bin final 2 copy.framerfx (origin); preserving existing contents of project folder: true
+[2020-04-01 19:23:31.1420] - INFO - Done reading
+[2020-04-01 19:23:31.1460] - INFO - Marking changed: false
+[2020-04-01 19:23:31.1480] - INFO - Marking changed: false
+[2020-04-01 19:23:31.1660] - DEBUG - [Save session: 2] Completed super.save
+[2020-04-01 19:23:31.1920] - INFO - Marking changed: false
+[2020-04-01 19:23:31.8590] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (6ms)
+[2020-04-01 19:23:33.1640] - INFO - Installing dependencies…
+[2020-04-01 19:23:33.1910] - INFO - GET 304 /node_modules/framer/build/framer.debug.js 0 B (2ms)
+[2020-04-01 19:23:35.6600] - INFO - Installing dependencies - DONE. Took 2691ms
+[2020-04-01 19:23:37.8200] - DEBUG - [Save session: 3] Started, operation: saveOperation
+[2020-04-01 19:23:37.8200] - DEBUG - [Save session: 3] Before container.writeCha- Installing dependencies - DONE. Took 2691ms
+[2020-04-01 19:23:37.8200] - DEBUG - [Save session: 3] Started, operation: saveOperation
+[2020-04-01 19:23:37.8200] - DEBUG - [Save session: 3] Before container.writeChanges
+[2020-04-01 19:23:37.8200] - DEBUG - [Save session: 3] Before waitUsingRecursiveRunLoop
+[2020-04-01 19:23:37.8260] - DEBUG - [Save session: 3] Completed container.writeChanges
+[2020-04-01 19:23:37.8260] - DEBUG - [Save session: 3] Completed waitUsingRecursiveRunLoop
+[2020-04-01 19:23:37.8290] - INFO - Marking changed: false
+[2020-04-01 19:23:37.8380] - DEBUG - [Save session: 3] Completed super.save
+[2020-04-01 19:23:47.4180] - DEBUG - [Save session: 4] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2020-04-01 19:23:47.4180] - DEBUG - [Save session: 4] Before container.writeChanges
+[2020-04-01 19:23:47.4180] - DEBUG - [Save session: 4] Not autosaving to archive, implicitly cancellable
+[2020-04-01 19:23:47.4610] - DEBUG - [Save session: 4] Completed container.writeChanges
+
+[2020-04-01 19:35:20.1660] - INFO - Reading from /Users/ruucm/Downloads/hf-intermediate-amds-bin final 2 copy.framerfx (origin); preserving existing contents of project folder: true
+[2020-04-01 19:35:20.2290] - INFO - Done reading
+[2020-04-01 19:35:20.2290] - INFO - Marking changed: false
+[2020-04-01 19:35:20.3240] - INFO - Proxy Config: exceptions: *.local, 169.254/16
+[2020-04-01 19:35:21.5810] - INFO - Project server PID: 47410
+[2020-04-01 19:35:21.9020] - INFO - GET 200 /design/document.json 0 B (7ms)
+[2020-04-01 19:35:21.9510] - INFO - GET 404 /node_modules/framer/build/framer.debug.js 180 B (2ms)
+[2020-04-01 19:35:23.0310] - INFO - Installing dependencies…
+[2020-04-01 19:35:23.1420] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (3ms)
+[2020-04-01 19:35:23.7100] - ERROR - Wed, 01 Apr 2020 10:35:23 GMT express deprecated res.send(status): Use res.sendStatus(status) instead at Applications/Framer X.app/Contents/Resources/Server/lib/server.js:129:17
+[2020-04-01 19:35:24.1270] - INFO - Installing dependencies - DONE. Took 1091ms
+[2020-04-01 19:35:26.1460] - DEBUG - [Save session: 0] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2020-04-01 19:35:26.1460] - DEBUG - [Save session: 0] Before container.writeChanges
+[2020-04-01 19:35:26.1460] - DEBUG - [Save session: 0] Not autosaving to archive, implicitly cancellable
+[2020-04-01 19:35:26.1600] - DEBUG - [Save session: 0] Completed container.writeChanges
